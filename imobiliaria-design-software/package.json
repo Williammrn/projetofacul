@@ -1,0 +1,27 @@
+{
+  "name": "imobiliaria-design-software",
+  "version": "1.0.0",
+  "description": "Atividade prática de Design de Software - Herança, Coesão, Acoplamento e Composição",
+  "main": "src/01-baixa-coesao/index.js",
+  "scripts": {
+    "baixa-coesao": "node src/01-baixa-coesao/index.js",
+    "alta-coesao": "node src/02-alta-coesao/index.js",
+    "alto-acoplamento": "node src/03-alto-acoplamento/index.js",
+    "baixo-acoplamento": "node src/04-baixo-acoplamento/index.js",
+    "composicao": "node src/05-composicao/index.js",
+    "imutabilidade": "node src/06-imutabilidade/index.js",
+    "injecao-dependencias": "node src/07-injecao-dependencias/index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "design-software",
+    "coesao",
+    "acoplamento",
+    "composicao",
+    "imutabilidade",
+    "injecao-dependencias"
+  ],
+  "author": "William",
+  "license": "ISC"
+}
