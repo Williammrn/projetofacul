@@ -1,0 +1,13 @@
+--baixa 
+git pull
+--atualiza
+git status
+-adiciona
+git add. 
+git commit -m ""
+git push
+
+extra seta master
+git branch
+git branch -r
+git branch --set-upstream-to=origin/master master
