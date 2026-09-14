@@ -1,5 +1,12 @@
 class ImovelService {
 
+    /*   
+    Delegar
+     constructor() {
+        this.imovelRepository = new ImovelRepository();
+    }
+    */
+
     constructor(imovelRepository) {
         this.imovelRepository = imovelRepository;
     }

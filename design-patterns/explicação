@@ -1,5 +1,48 @@
-Dependency Injection (Injeção de Dependência) e Page Controller.
+/*Dependency Injection (Injeção de Dependência) e Page Controller.
 
 listar todos os imóveis;
 buscar um imóvel pelo seu ID.
 
+Dependency Injection, ou Injeção de Dependência, é um padrão que permite
+ que uma classe receba de fora os objetos que ela precisa para funcionar, 
+ em vez de criar esses objetos internamente.
+
+ Controller
+    ↓
+  Service
+    ↓
+ Repository
+    ↓
+   Dados
+
+Repository → é entregue ao Service
+Service    → é entregue ao Controller
+
+====================================
+Primeiro: o Repository
+
+Ela funciona como um modelo/estrutura dizendo quais comportamentos um Repository terá.
+
+O ImovelRepository é uma classe que possui os métodos responsáveis pelo acesso aos dados. 
+No index.js, criamos uma instância dessa classe usando new ImovelRepository(). Essa instância,
+ chamada imovelRepository, é então injetada no ImovelService através do construtor.
+
+
+Service
+
+constructor(imovelRepository) {
+    this.imovelRepository = imovelRepository;
+}
+
+O Service precisa de um Repository para conseguir acessar os imóveis.
+
+
+"A principal vantagem é diminuir o acoplamento entre as classes. Cada classe
+ não precisa saber como criar suas dependências. Isso facilita a manutenção, 
+ os testes e também permite trocar uma implementação por outra no futuro."
+
+
+
+
+ Sobre page contro 
+*/

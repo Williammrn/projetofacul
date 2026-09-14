@@ -19,6 +19,13 @@ const imoveis = [
         cidade: "Teutônia",
         preco: 320000,
         tipo: "Casa"
+    },
+      {
+        id: 4,
+        endereco: "univates",
+        cidade: "lajeado",
+        preco: 320000003430,
+        tipo: "faculdade"
     }
 ];
 
